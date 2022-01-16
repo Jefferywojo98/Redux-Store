@@ -52,7 +52,6 @@ ___
 * Apollo
 * GraphQL
 * HTML
-terst
 
 ## Links
 ___
