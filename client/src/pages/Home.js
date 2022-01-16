@@ -1,30 +1,16 @@
-import { createStore } from 'redux';
-import { Provider, useStore} from 'react-redux'
-import reducer from './reducers';
-import React, { createContext, useContext } from "react";
- 
+import React from "react";
+import ProductList from "../components/ProductList";
+import CategoryMenu from "../components/CategoryMenu";
+import Cart from "../components/Cart";
 
-let store = createStore(reducer,
-  {
-    products: [],
-    cart: [],
-    cartOpen: false,
-    categories: [],
-    currentCategory: ''}
-
-);
-
-const StoreProvider = (props) => {
-
-  return <Provider store={store} {...props}/>
-}
-
-
-const StoreContext = createContext();
- 
-
-const useStoreContext = () => {
-  return useContext(StoreContext);
+const Home = () => {
+  return (
+    <div className="container">
+      <CategoryMenu />
+      <ProductList />
+      <Cart />
+    </div>
+  );
 };
 
-export { StoreProvider, useStoreContext };
+export default Home;
