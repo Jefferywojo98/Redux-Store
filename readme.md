@@ -57,7 +57,7 @@ ___
 ## Links
 ___
 - [GitHub Repository](https://github.com/Jefferywojo98/Redux-Store)
-- [Deployed Application](https://jeffery-note-maker.herokuapp.com/)
+- [Deployed Application](https://book-search-app-jw.herokuapp.com/)
 
 
 ## Screenshots/Videos
