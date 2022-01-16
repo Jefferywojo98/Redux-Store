@@ -57,7 +57,7 @@ terst
 ## Links
 ___
 - [GitHub Repository](https://github.com/Jefferywojo98/Redux-Store)
-- [Deployed Application](https://book-search-app-jw.herokuapp.com/)
+- [Deployed Application](https://redux-store-jw.herokuapp.com/)
 
 
 ## Screenshots/Videos
