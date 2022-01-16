@@ -46,13 +46,13 @@ ___
 * Express
 * GitHub
 * Heroku
+* CSS
 * Javascript
 * MongoDB + Atlas
 * Apollo
 * GraphQL
 * HTML
-* CSS
-
+terst
 
 ## Links
 ___
@@ -65,10 +65,6 @@ ___
 ![Screenshot](./Image/22-state-homework-demo-01.gif)
 ![Screenshot](./Image/22-state-homework-demo-02.gif)
 ![Screenshot](./Image/22-state-homework-demo-03.gif)
-
-
-
-
 
 
 ## Questions
