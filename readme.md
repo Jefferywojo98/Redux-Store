@@ -1,4 +1,4 @@
-# Note Taker
+# Redux Store
 By: Jeffery Wojciechowski
 
 ![mit](https://img.shields.io/badge/license-MIT-brightgreen)
