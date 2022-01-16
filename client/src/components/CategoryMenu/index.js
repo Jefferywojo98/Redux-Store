@@ -6,14 +6,12 @@ import {
 } from '../../utils/actions';
 import { QUERY_CATEGORIES } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
-
-
-//add redux dork code
 import { useDispatch, useSelector } from 'react-redux';
 
 function CategoryMenu() {
-  const dispatch = useDispatch();
+
   const state = useSelector((state) => state);
+  const dispatch = useDispatch();
 
   const { categories } = state;
 

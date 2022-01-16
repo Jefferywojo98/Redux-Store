@@ -1,13 +1,13 @@
 import React from 'react';
+
 import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
 import { idbPromise } from "../../utils/helpers";
-
-//add redux dork code
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch , useSelector} from 'react-redux';
 
 const CartItem = ({ item }) => {
-
-  const dispatch = useDispatch();
+  const state = useSelector((state) => state);
+   const dispatch = useDispatch();
+ 
 
   const removeFromCart = item => {
     dispatch({
